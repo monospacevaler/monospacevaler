@@ -1,0 +1,76 @@
+:root {
+
+    /* colori  --------------------------------------------------------------------------------- */
+    --primario: #C3DAE4;
+    --secondario: #3A447F;
+    --terziario: #CCE2EB;
+    --nero: black;
+    --testo: #333333;
+    --sfondo: white;
+  
+    /* font-family --------------------------------------------------------------------------------- */
+    --ff-mono: 'Roboto Mono', sans-serif;
+    --ff-notoemoji: 'Noto Emoji', sans-serif;
+}
+
+body{
+    font-family: var(--ff-mono);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--ff-mono);
+    font-weight: 500!important;
+}
+
+p{  
+    font-family: var(--ff-mono);
+    font-weight: 400!important;
+}
+
+.notoemoji{
+    font-family: var(--ff-notoemoji);
+}
+
+.avatar{
+    border: 1px solid var(--secondario);
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: var(--primario);
+    text-decoration-thickness: 15px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: -2px
+}
+
+.hero .descrizione{
+    max-width: 700px;
+    font-size: 24px;
+}
+
+.elenco-card{
+    width: 90%;
+    margin: auto;
+}
+.card-lavoro{
+    margin: auto;
+    max-width: 300px;
+    border: 1px solid var(--nero);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.card-lavoro img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.card-lavoro h4{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.card-lavoro p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
