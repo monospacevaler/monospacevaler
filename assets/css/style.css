@@ -13,6 +13,58 @@
     --ff-notoemoji: 'Noto Emoji', sans-serif;
 }
 
+/* Media Query XS --------------------------------------------------------------------------------- */
+@media (max-width: 575.98px){
+
+    nav .logo{
+        justify-content: center!important;
+    }
+
+    nav .logo img{
+        height: 24px!important;
+    }
+
+    #nav h1{
+        font-family: var(--ff-mono);
+        font-weight: 500!important;
+        font-size: 16px!important;
+        margin-left: 20px;
+        padding-top: 4px!important;
+    }
+
+    nav ul{
+        padding: 0!important;
+        margin: 0!important;
+        padding-top: 10px!important;
+    }
+
+    .my-avatar{
+        border: 1px solid var(--nero);
+        border-radius: 50%;
+        max-width: 100px!important;
+    }
+
+    .my-header{
+        padding: 20px;
+        text-align: center!important;
+    }
+
+    h2{
+        font-size: 24px!important;
+        text-align: center;
+    }
+
+    .hero .descrizione{
+        font-size: 16px!important;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 20px!important;
+        margin-bottom: 10px!important;
+    }
+}
+
 body{
     font-family: var(--ff-mono);
 }
@@ -22,17 +74,77 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 500!important;
 }
 
+nav h1{
+    font-family: var(--ff-mono);
+    font-weight: 500!important;
+    font-size: 26px!important;
+    margin-left: 20px;
+}
+
 p{  
     font-family: var(--ff-mono);
     font-weight: 400!important;
+}
+
+nav{
+    background-color: var(--sfondo);
+    border-bottom: 1px solid var(--nero);
+}
+
+nav .logo img{
+    height: 45px;
+}
+
+nav .logo{
+    column-gap: 10px;
+}
+
+nav .menu-container{
+    height: 50px;
+}
+
+nav .menu{
+    list-style-type: none;
+}
+
+nav .menu li a{
+    font-family: var(--ff-mono);
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--nero);
+}
+
+nav .menu li a:hover{
+    font-family: var(--ff-mono);
+    color: var(--nero);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 5px;
+}
+
+nav .menu li a:focus{
+    outline: 4px solid var(--nero)!important;
+    outline-offset: 3px;
+    border: 0px!important;
+    box-shadow: none!important;
+}
+
+.hero{
+    background-color: var(--primario);
 }
 
 .notoemoji{
     font-family: var(--ff-notoemoji);
 }
 
-.avatar{
-    border: 1px solid var(--secondario);
+.my-avatar{
+    border: 1px solid var(--nero);
+    border-radius: 50%;
+    width: 200px;
 }
 
 .underline{
@@ -45,11 +157,11 @@ p{
 
 .hero .descrizione{
     max-width: 700px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .elenco-card{
-    width: 90%;
+    row-gap: 10px;
     margin: auto;
 }
 .card-lavoro{
@@ -73,4 +185,32 @@ p{
 .card-lavoro p{
     font-size: 14px;
     margin-bottom: 0;
+}
+
+.my-footer{
+    row-gap: 5px;
+}
+
+footer a{
+    font-family: var(--ff-mono);
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--nero);
+}
+
+footer a:hover{
+    font-family: var(--ff-mono);
+    color: var(--nero);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 5px;
+}
+
+footer .my-footer a:focus{
+    outline: 4px solid var(--nero)!important;
+    outline-offset: 3px;
+    border: 0px!important;
+    box-shadow: none!important;
 }
