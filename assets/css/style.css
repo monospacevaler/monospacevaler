@@ -67,6 +67,7 @@
 
 body{
     font-family: var(--ff-mono);
+    font-weight: 400!important;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -123,11 +124,11 @@ nav .menu li a:hover{
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-skip-ink: none;
-    text-underline-offset: 5px;
+    text-underline-offset: 7px;
 }
 
 nav .menu li a:focus{
-    outline: 4px solid var(--nero)!important;
+    outline: 3px solid var(--nero)!important;
     outline-offset: 3px;
     border: 0px!important;
     box-shadow: none!important;
@@ -192,8 +193,9 @@ nav .menu li a:focus{
 }
 
 footer a{
+    font-size: 14px;
     font-family: var(--ff-mono);
-    font-weight: 400;
+    font-weight: 300;
     text-decoration: none;
     color: var(--nero);
 }
@@ -205,12 +207,21 @@ footer a:hover{
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-skip-ink: none;
-    text-underline-offset: 5px;
+    text-underline-offset: 7px;
 }
 
 footer .my-footer a:focus{
-    outline: 4px solid var(--nero)!important;
+    outline: 3px solid var(--nero)!important;
     outline-offset: 3px;
     border: 0px!important;
     box-shadow: none!important;
+}
+
+footer .crediti{
+    font-size: small;
+}
+
+footer .contatto img{
+    height: 20px;
+    margin-right: 10px;
 }
