@@ -63,6 +63,18 @@
         font-size: 20px!important;
         margin-bottom: 10px!important;
     }
+
+    .my-footer{
+        padding: 20px;
+        text-align: center!important;
+    }
+
+    .my-footer h3 .underline{
+        display: inline;
+        margin: auto;
+        padding: 20px;
+        text-align: center!important;
+    }
 }
 
 body{
@@ -180,7 +192,6 @@ nav .menu li a:focus{
 
 .card-lavoro h4{
     font-size: 16px;
-    margin-left: 10px;
 }
 
 .card-lavoro p{
@@ -190,6 +201,14 @@ nav .menu li a:focus{
 
 .my-footer{
     row-gap: 5px;
+}
+
+.my-footer p{
+    font-size: 14px;
+}
+
+.my-footer small{
+    font-size: 10px;
 }
 
 footer a{
