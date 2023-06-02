@@ -279,6 +279,28 @@ footer .contatto img{
     font-family: var(--ff-mono);
 }
 
+.infoaggiuntive .info a{
+    font-family: var(--ff-mono);
+    text-decoration: underline;
+    color: var(--nero);
+}
+
+.infoaggiuntive .info a:hover{
+    font-family: var(--ff-mono);
+    color: var(--nero);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 8px;
+}
+.infoaggiuntive .info a:focus{
+    outline: 3px solid var(--nero)!important;
+    outline-offset: 3px;
+    border: 0px!important;
+    box-shadow: none!important
+}
+
 .fifthbeat{
     font-family: var(--ff-mono);
     text-decoration: underline;
