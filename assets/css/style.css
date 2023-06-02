@@ -204,11 +204,13 @@ nav .menu li a:focus{
 }
 
 .my-footer p{
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .my-footer small{
-    font-size: 10px;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 footer a{
