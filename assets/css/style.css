@@ -91,6 +91,12 @@
         padding: 20px;
         text-align: center!important;
     }
+
+    #chisono article{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 body{
@@ -261,4 +267,47 @@ footer .crediti{
 footer .contatto img{
     height: 20px;
     margin-right: 10px;
+}
+
+.infoaggiuntive .info img{
+    height: 32px;
+    margin-right: 5px;
+}
+
+.infoaggiuntive .info span{
+    font-size: 16px;
+    font-family: var(--ff-mono);
+}
+
+.fifthbeat{
+    font-family: var(--ff-mono);
+    text-decoration: underline;
+    color: var(--nero);
+}
+
+.fifthbeat:hover{
+    font-family: var(--ff-mono);
+    color: var(--nero);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 8px;
+}
+
+#chisono .my-header .fifthbeat:focus{
+    outline: 3px solid var(--nero)!important;
+    outline-offset: 3px;
+    border: 0px!important;
+    box-shadow: none!important
+}
+
+figure img{
+    width: 250px!important;
+}
+
+figcaption{
+    font-family: var(--ff-mono);
+    font-size: 14px;
+    text-align: center;
 }
