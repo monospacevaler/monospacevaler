@@ -39,7 +39,7 @@
   <nav id="nav" class="it-header-wrapper it-header-sticky d-flex justify-content-between p-3 flex-column flex-sm-row">
     <div class="logo d-flex align-middle">
         <a href="index.html"><img src="./assets/images/logo.svg" alt="Valerio Ceccarelli - Torna alla home"></a>
-        <h1 class="m5-3 align-middle pt-2 pl-5">/ Valerio Ceccarelli / Portfolio</h1>
+        <span class="m5-3 align-middle pt-2 pl-5">/ Valerio Ceccarelli / Portfolio</span>
     </div>
     <div class="menu-container align-items-center">
         <ul class="menu d-flex justify-content-around m-auto align-middle">
@@ -57,8 +57,8 @@
           <img class="my-avatar my-sm-4" src="./assets/images/my-ac-avatar.png" alt="Foto Valerio Ceccarelli">
         </div>
         <div class="text-left p-5 pt-1 pt-sm-5">
-            <h2 class="underline">Portfolio</h2>
-            <p class="descrizione">Raccolta di alcuni miei lavori e di case study</p>
+            <h1 class="underline primario">Portfolio</h1>
+            <p class="descrizione">Giustamente devo fornire qualche prova pratica per dimostrare che le cose scritte nel CV sono vere.</p>
         </div>
     </div>
   </section>
@@ -68,16 +68,41 @@
   <main id="main" class="container pt-5 pb-5">
     <section id="portfolio" class="mt-5 mb-5">
         <header class="my-header">
-            <h3 class="underline mb-3 mb-sm-5">Portfolio</h3>
+            <h2 class="underline secondario mb-3 mb-sm-5">Ecco qui una raccolta dei miei lavori da freelance</h2>
         </header>
-        <article class="mt-5">
-            <header>
-                <h4 class="underline mb-3 mb-sm-5">Pagina in realizzazione</h4>
-            </header>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et lectus venenatis lectus tempor pulvinar. Morbi vel velit quis libero sollicitudin bibendum. Sed lacinia est ut vulputate maximus. Phasellus porttitor sem at mauris pellentesque, et egestas velit scelerisque. Sed ac odio eget leo tempor tristique quis sit amet diam. Mauris et urna sit amet odio lacinia lacinia vel in tellus. Ut vulputate vehicula eros volutpat consequat. Curabitur eget efficitur mi. Donec et nibh nec erat bibendum porttitor. Aliquam ultricies turpis et metus pulvinar blandit ac sit amet quam. Aliquam vitae dolor ac velit mollis vehicula. Sed dictum turpis id mi facilisis pretium. Morbi placerat rhoncus risus nec condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-        </article>
+        <div class="elenco-card mt-5 mb-5">
+          <article class="card-portfolio mx-2 mt-2 mb-5 d-flex flex-row align-items-center justify-content-around">
+            <img src="./assets/images/portfolio/torvergata.png" alt="Logo Tor Vergata">
+            <div class="scheda-portfolio px-5">
+              <header class="d-flex flex-column">
+                  <h3 class="underline terziario py-2"> Ricevimento Studenti - Tor Vergata</h3>
+                  <h4> Settembre 2020 - Dicembre 2020 </h4>
+              </header>
+              <p>Progettazione e sviluppo di un portale web che permetta agli studenti dell’Università di Roma Tor Vergata di consultare l’orario di ricevimento e tutte le altre informazioni collegate ai docenti dell’Ateneo.</p>
+              <div class="download">
+                <a href="./assets/pdf/Ricevimento_Docenti_WebApp_Redesign.pdf" target="_blank">Scarica il Case Study di Tor Vergata</a>
+                <img src="./assets/images/download.png" alt="">
+            </div>
+            </div>
+          </article>
+          <article class="card-portfolio mx-2 mt-2 mb-5 d-flex flex-row align-items-center justify-content-around">
+            <img src="./assets/images/portfolio/redstar.png" alt="Logo Redstar">
+            <div class="scheda-portfolio px-5">
+              <header class="d-flex flex-column">
+                  <h3 class="underline terziario py-2"> RedStar Gaming ASD </h3>
+                  <h4> Dicembre 2018 - Marzo 2019 </h4>
+              </header>
+              <p>Questo case study riassume le varie fasi della riprogettazione del sito web della sala lan RedStar Gaming. 
+                L’obiettivo principale era quello di rinnovare il sito dell’associazione, realizzato in maniera amatoriale in occasione 
+                dell’apertura della sala nel 2016.
+              </p>
+              <div class="download">
+                <a href="./assets/pdf/Sala_Lan_Website_Redesign.pdf" target="_blank">Scarica il Case Study del RedStar</a>
+                <img src="./assets/images/download.png" alt="">
+              </div>  
+            </div>
+          </article>
+        </div>
     </section>
     
   </main>
@@ -85,12 +110,12 @@
   <!-- #footer -->
 
   <footer class="container">
-    <h3 class="underline mb-3 mb-sm-5 text-center text-sm-left"> Mettiamoci in contatto!</h3>
+    <h2 class="underline secondario mb-3 mb-sm-5 text-center text-sm-left"> Mettiamoci in contatto!</h2>
     <div class="d-flex mt-2 mb-2 mt-sm-5 mb-sm-5 justify-content-around flex-column flex-sm-column my-footer">
         <div class="text-center">
-            <h5 class="pb-2">Sei di Roma?</h5>
+            <h4 class="pb-2">Sei di Roma?</h4>
             <p> Prendiamoci un caffè <small>(o magari un pezzo di pizza)</small> e parliamone a voce!</p>
-            <h6 class="pb-3"> Abiti (molto) fuori dal G.R.A.?</h6>
+            <h5 class="pb-3"> Abiti (molto) fuori dal G.R.A.?</h5>
         </div>
         <div class="contatti d-flex justify-content-around flex-column flex-sm-row mx-5">
             <div class="contatto">

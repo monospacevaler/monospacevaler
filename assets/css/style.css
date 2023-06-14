@@ -2,11 +2,13 @@
 
     /* colori  ------------------------------------------------------------------------------------ */
     --primario: #C3DAE4;
-    --secondario: #3A447F;
-    --terziario: #CCE2EB;
+    --secondario: #F0D1A0;
+    --terziario: #F0A7AF;
+    --terziario-over: #91C69F;
     --nero: black;
     --testo: #333333;
     --sfondo: white;
+    --sfond0-grey: #F5F5F5;
   
     /* font-family -------------------------------------------------------------------------------- */
     --ff-mono: 'Roboto Mono', sans-serif;
@@ -181,7 +183,7 @@ nav .menu li a:focus, #nav .logo a:focus{
 }
 
 .hero{
-    background-color: var(--primario);
+    background-color: var(--sfond0-grey);
 }
 
 .notoemoji{
@@ -196,12 +198,26 @@ nav .menu li a:focus, #nav .logo a:focus{
 
 .underline{
     text-decoration: underline;
-    text-decoration-color: var(--primario);
     text-decoration-thickness: 15px;
     text-decoration-skip-ink: none;
     text-underline-offset: -2px
 }
 
+.primario{
+    text-decoration-color: var(--primario);
+}
+
+.secondario{
+    text-decoration-color: var(--secondario);
+}
+
+.terziario{
+    text-decoration-color: var(--terziario);
+}
+
+.terziario:hover{
+    text-decoration-color: var(--terziario-over);
+}
 .hero .descrizione{
     max-width: 700px;
     font-size: 20px;
@@ -224,13 +240,76 @@ nav .menu li a:focus, #nav .logo a:focus{
     max-height: 40px;
 }
 
-.card-lavoro h4{
+.card-lavoro h3{
     font-size: 16px;
 }
 
 .card-lavoro p{
     font-size: 14px;
     margin-bottom: 0;
+}
+
+.card-portfolio{
+    margin: auto;
+    max-width: 1200px;
+    border: 1px solid var(--nero);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.card-portfolio img{
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid var(--nero);
+    border-radius: 10px;
+}
+
+.card-portfolio h3{
+    font-size: 24px;
+}
+
+.card-portfolio h4{
+    font-size: 20px;
+}
+
+.card-portfolio p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.card-portfolio .download{
+    text-align: end;
+}
+
+.card-portfolio .download img{
+    max-width: 24px;
+    max-height: 24px;
+    border: none;
+}
+
+.card-portfolio a{
+    font-size: 14px;
+    font-family: var(--ff-mono);
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--nero);
+}
+
+.card-portfolio a:hover{
+    font-family: var(--ff-mono);
+    color: var(--nero);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 7px;
+}
+
+.card-portfolio a:focus{
+    outline: 3px solid var(--nero)!important;
+    outline-offset: 3px;
+    border: 0px!important;
+    box-shadow: none!important;
 }
 
 .my-footer{
@@ -277,7 +356,7 @@ footer .crediti{
 }
 
 footer .contatto img{
-    height: 20px;
+    height: 24px;
     margin-right: 10px;
 }
 
@@ -347,11 +426,23 @@ footer .contatto img{
 }
 
 figure img{
-    width: 250px!important;
+    width: 200px!important;
 }
 
 figcaption{
     font-family: var(--ff-mono);
     font-size: 14px;
     text-align: center;
+}
+
+.pizza{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+.commento{
+    font-size: 12px;
+    font-style: oblique;
+    text-decoration: underline;
 }
